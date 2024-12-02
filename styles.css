@@ -84,6 +84,8 @@ body {
     position: fixed;
     top: 0;
     z-index: 1000;
+    max-height: 320px;
+    background-color: white;
   }
   #navbar a {
     padding: 10px 20px;
@@ -92,20 +94,5 @@ body {
   #main-doc {
     margin-left: 0px;
     padding-top: 370px;
-  }
-}
-
-/* handphone */
-
-@media (min-width: 365px) and (max-width: 768px) {
-  nav {
-    padding: 10px;
-    text-align: center;
-  }
-  nav a {
-    display: block;
-    padding: 10px 15px;
-    width: 100%;
-    text-align: left;
   }
 }

@@ -11,6 +11,7 @@ body {
 .container {
   display: flex;
 }
+
 #navbar {
   height: 100vh;
   width: 250px;
@@ -36,10 +37,12 @@ body {
   border-bottom-color: transparent;
 }
 #navbar ul li a {
-  font-size: 23px;
+  text-align: left;
+  font-size: 18px;
   padding: 5px;
   display: block;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 #main-doc {
